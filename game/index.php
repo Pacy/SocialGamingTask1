@@ -1,6 +1,6 @@
 <?php
 //Facebook authentication and authorization
-require_once ("sdk/facebook.php");
+require_once ("../facebook_sdk/src/facebook.php");
 
 $config = array();
 $config["appId"] = '###'; // your App ID here
